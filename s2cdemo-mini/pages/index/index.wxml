@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<view class="container">
+    <input type="text" placeholder="请输入用户名" model:value="{{username}}"/>
+    <button type="primary" bindtap="submit">提交</button>
+</view>
